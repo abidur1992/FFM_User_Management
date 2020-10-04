@@ -3636,14 +3636,10 @@
 									}
 								},
 								"url": {
-									"raw": "167.99.73.130:30287/api/v1/field-force/auth/dashboard-user-login",
+									"raw": "{{dash_url}}/api/v1/field-force/auth/dashboard-user-login",
 									"host": [
-										"167",
-										"99",
-										"73",
-										"130"
+										"{{dash_url}}"
 									],
-									"port": "30287",
 									"path": [
 										"api",
 										"v1",
@@ -3765,14 +3761,10 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "167.99.73.130:30288/api/v1/field-force/users/superadmin/remove/admin-remove/360",
+									"raw": "{{url}}/api/v1/field-force/users/superadmin/remove/admin-remove/360",
 									"host": [
-										"167",
-										"99",
-										"73",
-										"130"
+										"{{url}}"
 									],
-									"port": "30288",
 									"path": [
 										"api",
 										"v1",
